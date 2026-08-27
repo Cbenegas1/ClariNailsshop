@@ -1,0 +1,720 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clari Nails | Uñas y Estética en Paraguay</title>
+
+    <meta name="description" content="Agendá tu turno o hacé tu pedido en Clari Nails. Especialistas en esculpidas, kapping, esmaltado semipermanente y diseño de uñas. ¡Visitá nuestro local!">
+
+    <link rel="canonical" href="https://cbenegas1.github.io/ClariNailsshop/">
+
+    <meta property="og:title" content="Clari Nails 💅🏻 | Uñas y Estética">
+    <meta property="og:description" content="Especialistas en esculpidas, kapping, esmaltado semipermanente y diseño de uñas. ¡Mirá nuestro catálogo y pedinos por WhatsApp!">
+    <meta property="og:image" content="./images/fotologo2.jpg">
+    <meta property="og:url" content="https://cbenegas1.github.io/ClariNailsshop/">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Clari Nails">
+
+    <meta property="og:locale" content="es_PY">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Clari Nails | Uñas y Estética">
+    <meta name="twitter:description" content="Especialistas en esculpidas, kapping, esmaltado semipermanente y diseño de uñas.">
+    <meta name="twitter:image" content="./images/fotologo2.jpg">
+
+    <!-- Estilos CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Iconos FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- ANIMACIÓN DE CARGA (SOLO 1 VEZ POR SESIÓN) -->
+<div id="preloader" style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: #fdf6f7; display: flex; flex-direction: column; justify-content: center; align-items: center; z-index: 9999; transition: opacity 0.6s ease;">
+    <div style="text-align: center; max-width: 300px; padding: 20px;">
+        <!-- Foto logo pequeña -->
+        <img src="images/logo2.jpg" alt="ClariNails Logo" style="width: 100px; height: 100px; border-radius: 50%; object-fit: cover; box-shadow: 0 4px 15px rgba(0,0,0,0.1); margin-bottom: 20px;">
+        
+        <!-- Texto temático -->
+        <h3 style="color: #b88693; font-family: sans-serif; font-size: 18px; margin-bottom: 15px; letter-spacing: 1px;">Preparando tus uñas... ✨</h3>
+        
+        <!-- Barra de carga -->
+        <div style="width: 100%; background: #e0d1d4; border-radius: 10px; height: 8px; overflow: hidden;">
+            <div id="barra-progreso" style="width: 0%; height: 100%; background: linear-gradient(90deg, #b88693, #d4a5b0); border-radius: 10px; transition: width 2s ease-in-out;"></div>
+        </div>
+    </div>
+</div>
+
+<script>
+    // Verificar si ya se mostró la animación en esta sesión
+    if (sessionStorage.getItem('animacionVista')) {
+        // Si ya se vio, ocultar el preloader inmediatamente sin animación
+        document.getElementById('preloader').style.display = 'none';
+    } else {
+        // Si es la primera vez, marcar que ya se vió y ejecutar la animación
+        sessionStorage.setItem('animacionVista', 'true');
+
+        window.addEventListener('load', function() {
+            const barra = document.getElementById('barra-progreso');
+            const preloader = document.getElementById('preloader');
+            
+            // Llena la barra
+            setTimeout(() => {
+                barra.style.width = '100%';
+            }, 100);
+
+            // Oculta la pantalla de carga después de 1.8 segundos
+            setTimeout(() => {
+                preloader.style.opacity = '0';
+                setTimeout(() => {
+                    preloader.style.display = 'none';
+                }, 600);
+            }, 1800);
+        });
+    }
+</script>
+<!-- FIN DE LA ANIMACIÓN DE CARGA -->
+    <!-- BARRA SUPERIOR -->
+
+    <!-- VENTANA DE ANUNCIO / POP-UP DE BIENVENIDA -->
+<div id="modalAnuncio" class="modal-anuncio-overlay">
+    <div class="modal-anuncio-contenido">
+        <!-- Botón para cerrar -->
+        <button id="cerrarAnuncio" class="modal-anuncio-cerrar">&times;</button>
+        
+        <!-- Imagen del anuncio -->
+        <img src="./images/fotologo2.jpg" alt="Anuncio Septiembre - Coral" class="modal-anuncio-img">
+    </div>
+</div>
+
+    <div class="top-bar">
+        ✨ CLARINAILS · BEAUTY & NAIL SHOP
+    </div>
+
+
+    <!-- HEADER -->
+
+    <header class="header">
+
+        <a href="#" class="logo">
+
+            <!-- Logo en la barra de navegación superior -->
+<div style="display: flex; align-items: center; gap: 12px;">
+    <img src="images/logo2.jpg" alt="ClariNails Logo" style="width: 45px; height: 45px; border-radius: 50%; object-fit: cover; border: 1px solid #b88693;">
+    <div>
+        <span style="font-family: serif; font-size: 22px; font-weight: bold; color: #1a1a1a; letter-spacing: 0.5px; display: block; line-height: 1;">ClariNails</span>
+        <span style="font-size: 10px; color: #777; letter-spacing: 2px; text-transform: uppercase;">BEAUTY & NAIL SHOP</span>
+    </div>
+</div>
+
+
+        </a>
+
+
+        <nav id="nav">
+
+            <a href="#inicio">
+                Inicio
+            </a>
+            <a href="#cursos">Cursos</a>
+
+            <a href="#tienda">
+                Tienda
+            </a>
+
+            <a href="#instagram">
+                Instagram
+            </a>
+
+        </nav>
+
+
+        <button
+            class="cart-button"
+            id="openCart">
+
+            🛍️
+
+            <span>
+                Carrito
+            </span>
+
+            <b id="cartCount">
+                0
+            </b>
+
+        </button>
+
+
+        <button
+            class="menu-button"
+            id="menuButton">
+
+            ☰
+
+        </button>
+
+    </header>
+
+
+    <!-- HERO -->
+
+    <section
+        class="hero"
+        id="inicio">
+
+        <div class="hero-content">
+
+            <span class="eyebrow">
+                CLARINAILS SHOP
+            </span>
+
+            <h1>
+                Todo para tus
+                <em>uñas.</em>
+            </h1>
+
+            <p>
+
+                Descubrí nuestra selección de productos
+                para uñas, nail art y belleza.
+
+            </p>
+
+            <a
+                href="#tienda"
+                class="main-button">
+
+                Ver productos
+
+            </a>
+
+        </div>
+
+
+       <!-- Reemplazo de la tarjeta CN por la foto logo -->
+<div style="width: 100%; max-width: 400px; border-radius: 20px; overflow: hidden; box-shadow: 0 10px 25px rgba(0,0,0,0.15);">
+    <img src="images/fotoLogo.jpg" alt="Coral Boicetta" style="width: 100%; height: auto; display: block; object-fit: cover;">
+</div>
+    </section>
+
+    <!-- SECCIÓN DE CURSOS -->
+<section id="cursos" style="padding: 40px 20px; text-align: center;">
+    <h2 style="font-size: 2.5em; margin-bottom: 20px; color: #333;">Nuestros Cursos</h2>
+    <div class="cursos-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 30px; max-width: 1200px; margin: 0 auto;">
+        
+        <!-- Curso 1 -->
+        <div class="curso-item" style="background: #fff; padding: 15px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); display: flex; flex-direction: column; justify-content: space-between;">
+            <img src="images/Curso1.jpg" alt="Curso Especialista en Cejas y Pestañas" style="width: 100%; border-radius: 8px;">
+            <a href="https://wa.me/595984802685?text=Hola,%20quiero%20inscribirme%20al%20Curso%20Especialista%20en%20Cejas%20y%20Pestañas%20y%20quiero%20más%20información" target="_blank" style="margin-top: 15px; background: #25d366; color: white; padding: 10px 15px; border-radius: 5px; text-decoration: none; font-weight: bold; display: inline-block;">Quiero inscribirme</a>
+        </div>
+
+        <!-- Curso 2 -->
+        <div class="curso-item" style="background: #fff; padding: 15px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); display: flex; flex-direction: column; justify-content: space-between;">
+            <img src="images/Curso2.jpg" alt="Workshop Soft Gel" style="width: 100%; border-radius: 8px;">
+            <a href="https://wa.me/595984802685?text=Hola,%20quiero%20inscribirme%20al%20Workshop%20Soft%20Gel%20y%20quiero%20más%20información" target="_blank" style="margin-top: 15px; background: #25d366; color: white; padding: 10px 15px; border-radius: 5px; text-decoration: none; font-weight: bold; display: inline-block;">Quiero inscribirme</a>
+        </div>
+
+        <!-- Curso 3 -->
+        <div class="curso-item" style="background: #fff; padding: 15px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); display: flex; flex-direction: column; justify-content: space-between;">
+            <img src="images/Curso3.jpg" alt="Curso Profesional Extensiones de Pestañas" style="width: 100%; border-radius: 8px;">
+            <a href="https://wa.me/595984802685?text=Hola,%20quiero%20inscribirme%20al%20Curso%20Profesional%20Extensiones%20de%20Pestañas%20y%20quiero%20más%20información" target="_blank" style="margin-top: 15px; background: #25d366; color: white; padding: 10px 15px; border-radius: 5px; text-decoration: none; font-weight: bold; display: inline-block;">Quiero inscribirme</a>
+        </div>
+
+        <!-- Curso 4 -->
+        <div class="curso-item" style="background: #fff; padding: 15px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); display: flex; flex-direction: column; justify-content: space-between;">
+            <img src="images/curso4.jpg" alt="Master Class Henna Perfect" style="width: 100%; border-radius: 8px;">
+            <a href="https://wa.me/595984802685?text=Hola,%20quiero%20inscribirme%20a%20la%20Master%20Class%20Henna%20Perfect%20y%20quiero%20más%20información" target="_blank" style="margin-top: 15px; background: #25d366; color: white; padding: 10px 15px; border-radius: 5px; text-decoration: none; font-weight: bold; display: inline-block;">Quiero inscribirme</a>
+        </div>
+
+        <!-- Curso 5 -->
+        <div class="curso-item" style="background: #fff; padding: 15px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); display: flex; flex-direction: column; justify-content: space-between;">
+            <img src="images/Curso5.jpg" alt="Taller Tratamientos Faciales" style="width: 100%; border-radius: 8px;">
+            <a href="https://wa.me/595984802685?text=Hola,%20quiero%20inscribirme%20al%20Taller%20Tratamientos%20Faciales%20y%20quiero%20más%20información" target="_blank" style="margin-top: 15px; background: #25d366; color: white; padding: 10px 15px; border-radius: 5px; text-decoration: none; font-weight: bold; display: inline-block;">Quiero inscribirme</a>
+        </div>
+
+        <!-- Curso 6 -->
+        <div class="curso-item" style="background: #fff; padding: 15px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); display: flex; flex-direction: column; justify-content: space-between;">
+            <img src="images/curso6.jpg" alt="Tecnicatura Maquillaje N2" style="width: 100%; border-radius: 8px;">
+            <a href="https://wa.me/595984802685?text=Hola,%20quiero%20inscribirme%20a%20la%20Tecnicatura%20Maquillaje%20N2%20y%20quiero%20más%20información" target="_blank" style="margin-top: 15px; background: #25d366; color: white; padding: 10px 15px; border-radius: 5px; text-decoration: none; font-weight: bold; display: inline-block;">Quiero inscribirme</a>
+        </div>
+
+        <!-- Curso 7 -->
+        <div class="curso-item" style="background: #fff; padding: 15px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); display: flex; flex-direction: column; justify-content: space-between;">
+            <img src="images/curso7 .jpg" alt="Curso Emprende Desde 0" style="width: 100%; border-radius: 8px;">
+            <a href="https://wa.me/595984802685?text=Hola,%20quiero%20inscribirme%20al%20Curso%20Emprende%20Desde%200%20y%20quiero%20más%20información" target="_blank" style="margin-top: 15px; background: #25d366; color: white; padding: 10px 15px; border-radius: 5px; text-decoration: none; font-weight: bold; display: inline-block;">Quiero inscribirme</a>
+        </div>
+
+        <!-- Curso 8 -->
+        <div class="curso-item" style="background: #fff; padding: 15px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); display: flex; flex-direction: column; justify-content: space-between;">
+            <img src="images/curso8 .jpg" alt="Brunch Experience Florecer" style="width: 100%; border-radius: 8px;">
+            <a href="https://wa.me/595984802685?text=Hola,%20quiero%20inscribirme%20al%20Brunch%20Experience%20Florecer%20y%20quiero%20más%20información" target="_blank" style="margin-top: 15px; background: #25d366; color: white; padding: 10px 15px; border-radius: 5px; text-decoration: none; font-weight: bold; display: inline-block;">Quiero inscribirme</a>
+        </div>
+
+        <!-- Curso 9 -->
+        <div class="curso-item" style="background: #fff; padding: 15px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); display: flex; flex-direction: column; justify-content: space-between;">
+            <img src="images/curso9.jpg" alt="Domina el Arte del Maquillaje" style="width: 100%; border-radius: 8px;">
+            <a href="https://wa.me/595984802685?text=Hola,%20quiero%20inscribirme%20al%20curso%20Domina%20el%20Arte%20del%20Maquillaje%20y%20quiero%20más%20información" target="_blank" style="margin-top: 15px; background: #25d366; color: white; padding: 10px 15px; border-radius: 5px; text-decoration: none; font-weight: bold; display: inline-block;">Quiero inscribirme</a>
+        </div>
+
+        <!-- Curso 10 -->
+        <div class="curso-item" style="background: #fff; padding: 15px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); display: flex; flex-direction: column; justify-content: space-between;">
+            <img src="images/curso10.jpg" alt="Curso Peinados Sociales" style="width: 100%; border-radius: 8px;">
+            <a href="https://wa.me/595984802685?text=Hola,%20quiero%20inscribirme%20al%20Curso%20Peinados%20Sociales%20y%20quiero%20más%20información" target="_blank" style="margin-top: 15px; background: #25d366; color: white; padding: 10px 15px; border-radius: 5px; text-decoration: none; font-weight: bold; display: inline-block;">Quiero inscribirme</a>
+        </div>
+
+    </div>
+</section>
+<!-- FIN SECCIÓN DE CURSOS -->
+
+<!-- INSTAGRAM -->
+     <!-- SECCIÓN DE VIDEOS DESTACADOS / INSTAGRAM -->
+<section id="instagram-videos" style="background: #121212; padding: 60px 20px; font-family: sans-serif; display: flex; justify-content: center; align-items: center;">
+    <div style="background: #1a1a1a; width: 100%; max-width: 900px; border-radius: 35px; padding: 40px 30px; box-shadow: 0 15px 35px rgba(0,0,0,0.5); border: 1px solid #2a2a2a;">
+        
+        <!-- Encabezado de la sección -->
+        <div style="text-align: center; margin-bottom: 35px;">
+            <p style="color: #b88693; font-size: 12px; letter-spacing: 4px; font-weight: bold; margin-bottom: 8px; text-transform: uppercase;">SEGUINOS</p>
+            <h2 style="color: #ffffff; font-size: 32px; font-family: serif; margin-bottom: 12px; font-weight: normal;">ClariNails en Instagram</h2>
+            <p style="color: #aaaaaa; font-size: 14px; margin: 0;">Mirá nuestros trabajos, clases personalizadas y nuevos productos.</p>
+        </div>
+
+        <!-- Contenedor de los dos videos -->
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 30px; justify-items: center; margin-bottom: 35px;">
+            
+            <!-- Video 1: Cursos Personalizados -->
+            <div style="background: #242424; border-radius: 20px; overflow: hidden; width: 100%; max-width: 340px; box-shadow: 0 8px 20px rgba(0,0,0,0.3); border: 1px solid #333;">
+                <div style="width: 100%; height: 420px; background: #000; overflow: hidden; position: relative;">
+                    <video autoplay muted loop playsinline style="width: 100%; height: 100%; object-fit: cover;">
+                        <source src="images/CursoPersonalizados.mp4" type="video/mp4">
+                        Tu navegador no soporta videos.
+                    </video>
+                </div>
+                <div style="padding: 20px; text-align: center;">
+                    <p style="color: #fff; font-size: 14px; font-weight: bold; margin-bottom: 15px;">✨ Clases Personalizadas desde Cero</p>
+                    <a href="https://www.instagram.com/clarinails.shop" target="_blank" style="display: inline-block; background: transparent; color: #ffffff; border: 1px solid #b88693; padding: 10px 20px; border-radius: 30px; font-size: 13px; font-weight: bold; text-decoration: none; transition: 0.3s;">
+                        📸 @clarinails.shop
+                    </a>
+                </div>
+            </div>
+
+            <!-- Video 2: Entrega de Certificados -->
+            <div style="background: #242424; border-radius: 20px; overflow: hidden; width: 100%; max-width: 340px; box-shadow: 0 8px 20px rgba(0,0,0,0.3); border: 1px solid #333;">
+                <div style="width: 100%; height: 420px; background: #000; overflow: hidden; position: relative;">
+                    <video autoplay muted loop playsinline style="width: 100%; height: 100%; object-fit: cover;">
+                        <source src="images/CursosCulminados.mp4" type="video/mp4">
+                        Tu navegador no soporta videos.
+                    </video>
+                </div>
+                <div style="padding: 20px; text-align: center;">
+                    <p style="color: #fff; font-size: 14px; font-weight: bold; margin-bottom: 15px;">💖 Logros y Certificados</p>
+                    <a href="https://www.instagram.com/clarinails_" target="_blank" style="display: inline-block; background: transparent; color: #ffffff; border: 1px solid #b88693; padding: 10px 20px; border-radius: 30px; font-size: 13px; font-weight: bold; text-decoration: none; transition: 0.3s;">
+                        📸 @clarinails_
+                    </a>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Botón general inferior opcional -->
+        <div style="text-align: center;">
+            <a href="https://www.instagram.com/clarinails.shop" target="_blank" style="display: inline-block; background: #b88693; color: #ffffff; padding: 12px 30px; border-radius: 30px; font-size: 14px; font-weight: bold; text-decoration: none; box-shadow: 0 4px 15px rgba(184,134,147,0.4);">
+                Explorar perfil de Instagram 🚀
+            </a>
+        </div>
+
+    </div>
+</section>
+<!-- FIN DE SECCIÓN DE VIDEOS -->
+
+
+    <!-- TIENDA -->
+     
+
+    <main
+        class="shop"
+        id="tienda">
+
+
+        <div class="shop-title">
+
+            <div>
+
+                <span class="eyebrow">
+                    NUESTRA TIENDA
+                </span>
+
+                <h2>
+                    Productos ClariNails
+                </h2>
+
+                <p>
+                    Elegí una categoría o buscá directamente
+                    el producto que necesitás.
+                </p>
+
+            </div>
+
+
+            <div class="product-number">
+
+                <strong id="productCounter">
+                    0
+                </strong>
+
+                <span>
+                    productos
+                </span>
+
+            </div>
+
+        </div>
+
+
+        <!-- BUSCADOR -->
+
+        <div class="search">
+
+            <span>
+                🔎
+            </span>
+
+            <input
+                type="search"
+                id="searchInput"
+                placeholder="Buscar producto...">
+
+        </div>
+
+
+        <!-- CATEGORÍAS -->
+
+        <div class="categories">
+
+            <button
+                class="category active"
+                data-category="Todos">
+
+                Todos
+
+            </button>
+
+            <button
+                class="category"
+                data-category="Esmaltes">
+
+                💅 Esmaltes
+
+            </button>
+
+            <button
+                class="category"
+                data-category="Uñas">
+
+                💎 Uñas
+
+            </button>
+
+            <button
+                class="category"
+                data-category="Herramientas">
+
+                🧰 Herramientas
+
+            </button>
+
+            <button
+                class="category"
+                data-category="Decoración">
+
+                ✨ Decoración
+
+            </button>
+
+            <button
+                class="category"
+                data-category="Accesorios">
+
+                🎀 Accesorios
+
+            </button>
+
+            <button
+                class="category"
+                data-category="Otros">
+
+                Otros
+
+            </button>
+
+        </div>
+
+
+        <!-- PRODUCTOS -->
+
+        <div
+            class="products"
+            id="products">
+
+        </div>
+
+
+        <div
+            class="no-results"
+            id="noResults">
+
+            <div>
+                🔎
+            </div>
+
+            <h3>
+                No encontramos productos
+            </h3>
+
+            <p>
+                Probá otra búsqueda o categoría.
+            </p>
+
+        </div>
+
+    </main>
+    <
+
+    <!-- CURSOS -->
+
+    <section
+        class="shop"
+        id="instagram"
+        style="background: var(--cream);"
+    >
+
+        <div class="shop-title">
+
+            <div>
+
+                <span class="eyebrow">
+                    CAPACITACIONES
+                </span>
+
+                <h2>
+                    Nuestros Cursos y Talleres
+                </h2>
+
+                <p>
+                    Inscribite a nuestras clases presenciales y potenciá tus habilidades.
+                </p>
+
+            </div>
+
+        </div>
+
+
+      
+
+    
+    <section id="instagram-seccion" style="background: #121212; padding: 60px 20px; font-family: sans-serif; display: flex; justify-content: center; align-items: center;">
+    <div style="background: #1a1a1a; width: 100%; max-width: 950px; border-radius: 35px; padding: 40px; box-shadow: 0 15px 35px rgba(0,0,0,0.5); border: 1px solid #2a2a2a; display: flex; flex-wrap: wrap; align-items: center; gap: 40px;">
+        
+        <div style="flex: 1; min-width: 280px; max-width: 360px; height: 450px; background: #000; border-radius: 20px; overflow: hidden; box-shadow: 0 10px 25px rgba(0,0,0,0.4); border: 1px solid #333; margin: 0 auto;">
+            <video autoplay muted loop playsinline style="width: 100%; height: 100%; object-fit: cover;">
+                <source src="images/Clari.mp4" type="video/mp4">
+                Tu navegador no soporta videos.
+            </video>
+        </div>
+
+        <div style="flex: 1.5; min-width: 280px; text-align: left;">
+            <p style="color: #b88693; font-size: 12px; letter-spacing: 4px; font-weight: bold; margin-bottom: 8px; text-transform: uppercase;">SEGUINOS</p>
+            <h2 style="color: #ffffff; font-size: 32px; font-family: serif; margin-bottom: 12px; font-weight: normal; line-height: 1.2;">ClariNails en Instagram</h2>
+            <p style="color: #aaaaaa; font-size: 14px; margin-bottom: 25px; line-height: 1.5;">Mirá nuestros trabajos, novedades, clases y nuevos productos.</p>
+            
+            <div style="display: flex; gap: 15px; flex-wrap: wrap;">
+                <a href="https://www.instagram.com/clarinails.shop" target="_blank" style="background: transparent; color: #ffffff; border: 1px solid #b88693; padding: 12px 24px; border-radius: 30px; font-size: 13px; font-weight: bold; text-decoration: none; transition: 0.3s; display: inline-flex; align-items: center; gap: 8px;">
+                    📸 @clarinails.shop
+                </a>
+                <a href="https://www.instagram.com/clarinails_" target="_blank" style="background: transparent; color: #ffffff; border: 1px solid #b88693; padding: 12px 24px; border-radius: 30px; font-size: 13px; font-weight: bold; text-decoration: none; transition: 0.3s; display: inline-flex; align-items: center; gap: 8px;">
+                    📸 @clarinails_
+                </a>
+            </div>
+        </div>
+
+    </div>
+</section>
+<!-- SECCIÓN UBICACIÓN DEL LOCAL -->
+<!-- SECCIÓN UBICACIÓN DEL LOCAL -->
+<section id="ubicacion" class="seccion-ubicacion">
+    <div class="contenedor-ubicacion">
+        <h2>📍 Visitá Nuestro Local</h2>
+        <p class="subtitulo-ubicacion">¡Te esperamos para brindarte la mejor atención y dejar tus uñas hermosas!</p>
+        
+        <div class="tarjeta-info-local">
+            <div class="info-item">
+                <span class="icono">🏠</span>
+                <div>
+                    <h3>Clari Nails</h3>
+                    <p>Encontranos en nuestra ubicación oficial.</p>
+                </div>
+            </div>
+
+            <div class="info-item">
+                <span class="icono">🕒</span>
+                <div>
+                    <h3>Horarios de Atención</h3>
+                    <p>Lunes a Sábados: Horario continuado</p>
+                </div>
+            </div>
+
+            <!-- MAPA INTERACTIVO DE GOOGLE MAPS -->
+            <div class="contenedor-mapa">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3468.0019081012792!2d-57.37289222467226!3d-25.40166393177103!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x945db503794d9ed9%3A0xe5fbfdbd4c307d0b!2sClari%20Nails!5e1!3m2!1ses!2spy!4v1787796725648!5m2!1ses!2spy" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+            </div>
+
+            <!-- Botón para abrir en Google Maps app / pantalla completa -->
+            <a href="https://maps.app.goo.gl/ClariNails" target="_blank" class="btn-mapa">
+                Cómo llegar (Abrir en Google Maps) 🗺️
+            </a>
+        </div>
+    </div>
+</section>
+
+    <!-- FOOTER -->
+
+    <!-- PIE DE PÁGINA (FOOTER) -->
+<footer style="background: #121212; padding: 40px 20px; font-family: sans-serif; border-top: 1px solid #222; color: #ffffff;">
+    <div style="max-width: 1100px; margin: 0 auto; display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 30px;">
+        
+        <!-- 1. Logo idéntico al inicio -->
+        <div style="text-align: left;">
+            <h2 style="font-family: serif; font-size: 24px; font-weight: normal; margin: 0; letter-spacing: 0.5px; color: #ffffff;">ClariNails</h2>
+            <p style="font-size: 9px; letter-spacing: 3px; color: #b88693; margin: 4px 0 0 0; font-weight: bold; text-transform: uppercase;">Nail Shop</p>
+        </div>
+
+        
+
+        <!-- 3. Copyright / Derechos -->
+        <div style="color: #777777; font-size: 12px; text-align: right;">
+            © 2026 ClariNails. Todos los derechos reservados.
+        </div>
+        <div style="color: #777777; font-size: 12px; text-align: right;">
+            Creado Por NexoWeb.PY 
+        </div>
+
+    </div>
+</footer>
+<!-- FIN DE FOOTER -->
+
+
+    <!-- CARRITO -->
+
+    <div
+        class="overlay"
+        id="overlay">
+    </div>
+
+
+    <aside
+        class="cart"
+        id="cart">
+
+        <div class="cart-header">
+
+            <div>
+
+                <span class="eyebrow">
+                    TU PEDIDO
+                </span>
+
+                <h2>
+                    Carrito
+                </h2>
+
+            </div>
+
+            <button
+                id="closeCart">
+
+                ×
+
+            </button>
+
+        </div>
+
+
+        <div
+            class="cart-products"
+            id="cartProducts">
+        </div>
+
+
+        <div
+            class="empty-cart"
+            id="emptyCart">
+
+            🛍️
+
+            <h3>
+                Tu carrito está vacío
+            </h3>
+
+            <p>
+                Agregá productos para comenzar.
+            </p>
+
+        </div>
+
+
+        <div class="cart-bottom">
+
+            <div class="total">
+
+                <span>
+                    Total
+                </span>
+
+                <strong id="cartTotal">
+                    Gs. 0
+                </strong>
+
+            </div>
+
+
+            <button
+                class="whatsapp-button"
+                id="sendWhatsApp">
+
+                💬 Enviar pedido por WhatsApp
+
+            </button>
+
+            <small>
+                El pedido se enviará con los productos,
+                cantidades y total.
+            </small>
+
+        </div>
+
+    </aside>
+ <!-- BOTÓN FLOTANTE DE WHATSAPP -->
+<div style="position: fixed; bottom: 25px; right: 25px; z-index: 9999; font-family: sans-serif;">
+    <a href="https://wa.me/5959716707040?text=Hola,%20estoy%20visitando%20la%20web%20de%20ClariNails%20y%20deseo%20realizarle%20una%20consulta%20sobre%20los%20productos." 
+       target="_blank" 
+       rel="noopener noreferrer"
+       style="display: flex; align-items: center; justify-content: center; width: 55px; height: 55px; background-color: #25d366; color: white; border-radius: 50px; text-decoration: none; box-shadow: 0 4px 15px rgba(0,0,0,0.3); transition: transform 0.3s ease; overflow: hidden;"
+       onmouseover="this.style.transform='scale(1.08)'" 
+       onmouseout="this.style.transform='scale(1)'"
+       title="Contactar por WhatsApp">
+        
+        <!-- Icono SVG de WhatsApp -->
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" style="width: 28px; height: 28px; fill: white; margin: auto;">
+            <path d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.6 66.4 14 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"/>
+        </svg>
+    </a>
+</div>
+
+
+    <script src="script.js"></script>
+    
+
+</body>
+</html>
