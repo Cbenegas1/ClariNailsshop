@@ -25,525 +25,525 @@ const products = [
         name: "Decoración para Uñas Charm Limit",
         price: 25000,
         category: "Decoración de Uñas / Nail Art",
-        image: "./images/ClariShop_002.jpg"
+        image: "ClariShop_002.jpg"
     },
     {
         id: 2,
         name: "Aceite Revitalizador de Cutículas Eloise",
         price: 12000,
         category: "Cuidado de Uñas",
-        image: "./images/ClariShop_003.jpg"
+        image: "ClariShop_003.jpg"
     },
     {
         id: 3,
         name: "Aceite Revitalizador de Cutículas Eloise",
         price: 15000,
         category: "Cuidado de Uñas",
-        image: "./images/ClariShop_005.jpg"
+        image: "ClariShop_005.jpg"
     },
     {
         id: 4,
         name: "Polímero Acrílico QBD White",
         price: 60000,
         category: "Insumos para Uñas Acrílicas",
-        image: "./images/ClariShop_007.jpg"
+        image: "ClariShop_007.jpg"
     },
     {
         id: 5,
         name: "Polvo Acrílico Acryfine Summer Style (Clear)",
         price: 130000,
         category: "Insumos para Uñas Acrílicas",
-        image: "./images/ClariShop_009.jpg"
+        image: "ClariShop_009.jpg"
     },
     {
         id: 6,
         name: "Polímero Acrílico de Colores Eloise",
         price: 45000,
         category: "Insumos para Uñas Acrílicas",
-        image: "./images/ClariShop_011.jpg"
+        image: "ClariShop_011.jpg"
     },
     {
         id: 7,
         name: "Polvo Acrílico Acryfine Summer Style (Cover)",
         price: 130000,
         category: "Insumos para Uñas Acrílicas",
-        image: "./images/ClariShop_013.jpg"
+        image: "ClariShop_013.jpg"
     },
     {
         id: 8,
         name: "Polvo Acrílico Professional Navi 1154",
         price: 80000,
         category: "Insumos para Uñas Acrílicas",
-        image: "./images/ClariShop_015.jpg"
+        image: "ClariShop_015.jpg"
     },
     {
         id: 9,
         name: "Polvo Acrílico Professional Navi 1614",
         price: 80000,
         category: "Insumos para Uñas Acrílicas",
-        image: "./images/ClariShop_017.jpg"
+        image: "ClariShop_017.jpg"
     },
     {
         id: 10,
         name: "Polvo Acrílico Professional Navi 1123",
         price: 80000,
         category: "Insumos para Uñas Acrílicas",
-        image: "./images/ClariShop_019.jpg"
+        image: "ClariShop_019.jpg"
     },
     {
         id: 11,
         name: "Polímero Acrílico Eloise (30g)",
         price: 45000,
         category: "Insumos para Uñas Acrílicas",
-        image: "./images/ClariShop_021.jpg"
+        image: "ClariShop_021.jpg"
     },
     {
         id: 12,
         name: "French Dip Powder Holder",
         price: 15000,
         category: "Accesorios y Herramientas para Uñas",
-        image: "./images/ClariShop_023.jpg"
+        image: "ClariShop_023.jpg"
     },
     {
         id: 13,
         name: "Base Gel Long Lasting Navi (10ml)",
         price: 45000,
         category: "Insumos para Uñas Acrílicas",
-        image: "./images/ClariShop_025.jpg"
+        image: "ClariShop_025.jpg"
     },
     {
         id: 14,
         name: "Base Gel Long Lasting Navi (15ml)",
         price: 60000,
         category: "Insumos para Uñas Acrílicas",
-        image: "./images/ClariShop_027.jpg"
+        image: "ClariShop_027.jpg"
     },
     {
         id: 15,
         name: "Victoria's Secret Amber Romance Shimmer Mist + Loción (y Set Facial)",
         price: 0,
         category: "Cuidado Corporal / Perfumería",
-        image: "./images/ClariShop_029.jpg"
+        image: "ClariShop_029.jpg"
     },
     {
         id: 16,
         name: "Decoración Nails Mirror Eloise",
         price: 20000,
         category: "Decoración de Uñas / Nail Art",
-        image: "./images/ClariShop_031.jpg"
+        image: "ClariShop_031.jpg"
     },
     {
         id: 17,
         name: "Decoración Nails Mirror Eloise (Set de 6 piezas)",
         price: 60000,
         category: "Decoración de Uñas / Nail Art",
-        image: "./images/ClariShop_033.jpg"
+        image: "ClariShop_033.jpg"
     },
     {
         id: 18,
         name: "Navi Builder Gel 4 en 1 (20ml)",
         price: 80000,
         category: "Geles de Construcción",
-        image: "./images/ClariShop_007.jpg"
+        image: "ClariShop_007.jpg"
     },
     {
         id: 19,
         name: "Set de Pinzas / Clips para Remover Esmalte Eloise",
         price: 60000,
         category: "Accesorios y Herramientas para Uñas",
-        image: "./images/ClariShop_037.jpg"
+        image: "ClariShop_037.jpg"
     },
     {
         id: 20,
         name: "Cápsula Dual Acrygel Nail Forms - Paris Night",
         price: 390000,
         category: "Insumos para Uñas Acrílicas / Dual System",
-        image: "./images/ClariShop_007.jpg"
+        image: "ClariShop_007.jpg"
     },
     {
         id: 21,
         name: "Alicate Profesional para Cutículas Eloise",
         price: 25000,
         category: "Herramientas y Accesorios para Manicuría",
-        image: "./images/ClariShop_043.jpg"
+        image: "ClariShop_043.jpg"
     },
     {
         id: 22,
         name: "Cortaúñas Metálico con Lima Incorporada",
         price: 5000,
         category: "Herramientas y Accesorios para Manicuría",
-        image: "./images/ClariShop_045.jpg"
+        image: "ClariShop_045.jpg"
     },
     {
         id: 23,
         name: "Loción Corporal Perfumada Victoria's Secret (Variedades)",
         price: 50000,
         category: "Cuidado Corporal / Perfumería",
-        image: "./images/ClariShop_047.jpg"
+        image: "ClariShop_047.jpg"
     },
     {
         id: 24,
         name: "Vasito Dappen de Vidrio (Pack de 2)",
         price: 5000,
         category: "Accesorios e Insumos para Uñas Acrílicas",
-        image: "./images/ClariShop_049.jpg"
+        image: "ClariShop_049.jpg"
     },
     {
         id: 25,
         name: "Set de Dijes y Joyería para Uñas (Fashion Nail Jewelry)",
         price: 20000,
         category: "Decoración de Uñas / Nail Art",
-        image: "./images/ClariShop_051.jpg"
+        image: "ClariShop_051.jpg"
     },
     {
         id: 26,
         name: "Apliques Holográficos y Flores City Girl (Nail Art)",
         price: 25000,
         category: "Decoración de Uñas / Nail Art",
-        image: "./images/ClariShop_053.jpg"
+        image: "ClariShop_053.jpg"
     },
     {
         id: 27,
         name: "Surtido de Dijes Kawaii y Lazos KekeStar (Nail Art)",
         price: 25000,
         category: "Decoración de Uñas / Nail Art",
-        image: "./images/ClariShop_056.jpg"
+        image: "ClariShop_056.jpg"
     },
     {
         id: 28,
         name: "Dedos de Práctica de Silicona con Uña",
         price: 10000,
         category: "Accesorios de Práctica para Manicuría",
-        image: "./images/ClariShop_058.jpg"
+        image: "ClariShop_058.jpg"
     },
     {
         id: 29,
         name: "Dispensador Pump con Tapa Rosada (Frasco con Bomba)",
         price: 15000,
         category: "Accesorios e Insumos para Uñas",
-        image: "./images/ClariShop_060.jpg"
+        image: "ClariShop_060.jpg"
     },
     {
         id: 30,
         name: "Polvo Efecto Espejo City Girl Nail Powder",
         price: 20000,
         category: "Decoración de Uñas / Nail Art",
-        image: "./images/ClariShop_062.jpg"
+        image: "ClariShop_062.jpg"
     },
     {
         id: 31,
         name: "Polvo Efecto Espejo y Aurora Set x4 (Nail Art)",
         price: 35000,
         category: "Decoración de Uñas / Nail Art",
-        image: "./images/ClariShop_064.jpg"
+        image: "ClariShop_064.jpg"
     },
     {
         id: 32,
         name: "Polvo Cromo / Efecto Espejo Eloise",
         price: 15000,
         category: "Decoración de Uñas / Nail Art",
-        image: "./images/ClariShop_066.jpg"
+        image: "ClariShop_066.jpg"
     },
     {
         id: 33,
         name: "Polvo Cromo Mirror Powder City Girl",
         price: 20000,
         category: "Decoración de Uñas / Nail Art",
-        image: "./images/ClariShop_068.jpg"
+        image: "ClariShop_068.jpg"
     },
     {
         id: 34,
         name: "Polvo Efecto Espejo y Holográfico City Girl",
         price: 20000,
         category: "Decoración de Uñas / Nail Art",
-        image: "./images/ClariShop_070.jpg"
+        image: "ClariShop_070.jpg"
     },
     {
         id: 35,
         name: "Polvo Efecto Espejo Metálico Charm Limit",
         price: 20000,
         category: "Decoración de Uñas / Nail Art",
-        image: "./images/ClariShop_072.jpg"
+        image: "ClariShop_072.jpg"
     },
     {
         id: 36,
         name: "Set x6 Polvos Efecto Espejo y Decoraciones Eloise",
         price: 60000,
         category: "Decoración de Uñas / Nail Art",
-        image: "./images/ClariShop_074.jpg"
+        image: "ClariShop_074.jpg"
     },
     {
         id: 37,
         name: "Empujador de Cutículas Metálico Doble de Acero Inoxidable",
         price: 10000,
         category: "Herramientas y Accesorios para Manicuría",
-        image: "./images/ClariShop_076.jpg"
+        image: "ClariShop_076.jpg"
     },
     {
         id: 38,
         name: "Esmalte Semipermanente UV/LED Charm Limit (10ml)",
         price: 20000,
         category: "Esmaltes y Productos UV/LED",
-        image: "./images/ClariShop_078.jpg"
+        image: "ClariShop_078.jpg"
     },
     {
         id: 39,
         name: "Esmalte Semipermanente UV/LED Charm Limit Individual (10ml)",
         price: 17000,
         category: "Esmaltes y Productos UV/LED",
-        image: "./images/ClariShop_080.jpg"
+        image: "ClariShop_080.jpg"
     },
     {
         id: 40,
         name: "Caja de Esmaltes Semipermanentes UV/LED Charm Limit (12 PCS)",
         price: 180000,
         category: "Esmaltes y Productos UV/LED",
-        image: "./images/ClariShop_082.jpg"
+        image: "ClariShop_082.jpg"
     },
     {
         id: 41,
         name: "Liner Gel UV/LED Charm Limit (10ml)",
         price: 15000,
         category: "Esmaltes y Productos UV/LED",
-        image: "./images/ClariShop_084.jpg"
+        image: "ClariShop_084.jpg"
     },
     {
         id: 42,
         name: "Color Gel LED/UV Soak-Off Heart Bottle Charm Limit (5ml)",
         price: 15000,
         category: "Esmaltes y Productos UV/LED",
-        image: "./images/ClariShop_086.jpg"
+        image: "ClariShop_086.jpg"
     },
     {
         id: 43,
         name: "Color Gel LED/UV Charm Limit (11ml)",
         price: 17000,
         category: "Esmaltes y Productos UV/LED",
-        image: "./images/ClariShop_088.jpg"
+        image: "ClariShop_088.jpg"
     },
     {
         id: 44,
         name: "Color Gel LED/UV Glitter / Brillos Charm Limit (10ml)",
         price: 25000,
         category: "Esmaltes y Productos UV/LED",
-        image: "./images/ClariShop_090.jpg"
+        image: "ClariShop_090.jpg"
     },
     {
         id: 45,
         name: "Laser Drill UV/LED Charm Limit (10ml)",
         price: 25000,
         category: "Esmaltes y Productos UV/LED",
-        image: "./images/ClariShop_092.jpg"
+        image: "ClariShop_092.jpg"
     },
     {
         id: 46,
         name: "Gel Polish Vía Láctea Navi (10ml)",
         price: 20000,
         category: "Esmaltes y Productos UV/LED",
-        image: "./images/ClariShop_094.jpg"
+        image: "ClariShop_094.jpg"
     },
     {
         id: 47,
         name: "Gel Polish Aurora Navi (6ml - 8ml)",
         price: 40000,
         category: "Esmaltes y Productos UV/LED",
-        image: "./images/ClariShop_096.jpg"
+        image: "ClariShop_096.jpg"
     },
     {
         id: 48,
         name: "Lima Banana para Uñas Grano 100/150",
         price: 10000,
         category: "Herramientas y Accesorios para Manicuría",
-        image: "./images/ClariShop_098.jpg"
+        image: "ClariShop_098.jpg"
     },
     {
         id: 49,
         name: "Set de Holográficos en forma de Estrella (Nail Art)",
         price: 10000,
         category: "Decoración de Uñas / Nail Art",
-        image: "./images/ClariShop_100.jpg"
+        image: "ClariShop_100.jpg"
     },
     {
         id: 50,
         name: "Set de Glitter y Efectos Holográficos en Pote",
         price: 20000,
         category: "Decoración de Uñas / Nail Art",
-        image: "./images/ClariShop_102.jpg"
+        image: "ClariShop_102.jpg"
     },
     {
         id: 51,
         name: "The Floral Vibes - Flores Secas para Uñas City Girl",
         price: 25000,
         category: "Decoración de Uñas / Nail Art",
-        image: "./images/ClariShop_104.jpg"
+        image: "ClariShop_104.jpg"
     },
     {
         id: 52,
         name: "Set x2 Cajas de Decoraciones Variadas y Apliques para Uñas",
         price: 25000,
         category: "Decoración de Uñas / Nail Art",
-        image: "./images/ClariShop_106.jpg"
+        image: "ClariShop_106.jpg"
     },
     {
         id: 53,
         name: "Fresa / Punta de Diamante Metálica Plana para Torno",
         price: 2000,
         category: "Herramientas y Accesorios para Manicuría",
-        image: "./images/ClariShop_108.jpg"
+        image: "ClariShop_108.jpg"
     },
     {
         id: 54,
         name: "Set x4 Fresas / Puntas Cerámicas y de Tungsteno para Torno",
         price: 1000000,
         category: "Herramientas y Accesorios para Manicuría",
-        image: "./images/ClariShop_110.jpg"
+        image: "ClariShop_110.jpg"
     },
     {
         id: 55,
         name: "Solid Cream Gel Charm Limit (15ml)",
         price: 25000,
         category: "Esmaltes y Productos UV/LED",
-        image: "./images/ClariShop_112.jpg"
+        image: "ClariShop_112.jpg"
     },
     {
         id: 56,
         name: "Gel para Construcción / UV/LED Gel Navi (15ml)",
         price: 60000,
         category: "Esmaltes y Productos UV/LED",
-        image: "./images/ClariShop_114.jpg"
+        image: "ClariShop_114.jpg"
     },
     {
         id: 57,
         name: "Painting Gel UV/LED Navi (8ml)",
         price: 60000,
         category: "Esmaltes y Productos UV/LED",
-        image: "./images/ClariShop_116.jpg"
+        image: "ClariShop_116.jpg"
     },
     {
         id: 58,
         name: "Set x3 Gel de Pintura / Painting Gel Eloise (8ml)",
         price: 15000,
         category: "Esmaltes y Productos UV/LED",
-        image: "./images/ClariShop_118.jpg"
+        image: "ClariShop_118.jpg"
     },
     {
         id: 59,
         name: "Diamond Glue Gel UV/LED para Strass / Extensión Navi (20ml)",
         price: 0,
         category: "Esmaltes y Productos UV/LED",
-        image: "./images/ClariShop_120.jpg"
+        image: "ClariShop_120.jpg"
     },
     {
         id: 60,
         name: "Gel Refrescante Profundo Pedi Ice Gena con Eucalipto y Mentol (250ml)",
         price: 5000,
         category: "Cuidado de Pies / Pedicuría",
-        image: "./images/ClariShop_122.jpg"
+        image: "ClariShop_122.jpg"
     },
     {
         id: 61,
         name: "Gel Spider Eloise White",
         price: 0,
         category: "Esmaltes y Productos UV/LED",
-        image: "./images/ClariShop_124.jpg"
+        image: "ClariShop_124.jpg"
     },
     {
         id: 62,
         name: "Gel Spider Eloise Black",
         price: 20000,
         category: "Esmaltes y Productos UV/LED",
-        image: "./images/ClariShop_126.jpg"
+        image: "ClariShop_126.jpg"
     },
     {
         id: 63,
         name: "Potes de Glitter / Polvo para Uñas",
         price: 15000,
         category: "Decoración de Uñas / Nail Art",
-        image: "./images/ClariShop_128.jpg"
+        image: "ClariShop_128.jpg"
     },
     {
         id: 64,
         name: "Set x6 Cajas de Decoración Holográfica para Uñas Eloise",
         price: 35000,
         category: "Decoración de Uñas / Nail Art",
-        image: "./images/ClariShop_130.jpg"
+        image: "ClariShop_130.jpg"
     },
     {
         id: 65,
         name: "Set x4 Cajas de Diseños Surtidos de Glitter y Apliques",
         price: 35000,
         category: "Decoración de Uñas / Nail Art",
-        image: "./images/ClariShop_132.jpg"
+        image: "ClariShop_132.jpg"
     },
     {
         id: 66,
         name: "Pote Individual de Glitter / Polvo Decorativo Eloise",
         price: 15000,
         category: "Decoración de Uñas / Nail Art",
-        image: "./images/ClariShop_134.jpg"
+        image: "ClariShop_134.jpg"
     },
     {
         id: 67,
         name: "Set x6 Cajas Redondas de Apliques Estrellas y Glitter Eloise",
         price: 35000,
         category: "Decoración de Uñas / Nail Art",
-        image: "./images/ClariShop_136.jpg"
+        image: "ClariShop_136.jpg"
     },
     {
         id: 68,
         name: "Set Potes de Efecto Espejo / Polvo para Uñas con Aplicador",
         price: 20000,
         category: "Decoración de Uñas / Nail Art",
-        image: "./images/ClariShop_138.jpg"
+        image: "ClariShop_138.jpg"
     },
     {
         id: 69,
         name: "Organizador / Surtido a Granel de Potes con Decoraciones Variadas",
         price: 10000,
         category: "Decoración de Uñas / Nail Art",
-        image: "./images/ClariShop_140.jpg"
+        image: "ClariShop_140.jpg"
     },
     {
         id: 70,
         name: "Set de Cajas Grandes x12 Compartimentos de Decoración Holográfica",
         price: 70000,
         category: "Decoración de Uñas / Nail Art",
-        image: "./images/ClariShop_142.jpg"
+        image: "ClariShop_142.jpg"
     },
     {
         id: 71,
         name: "Set x12 Cajas de Decoración Variada / Apliques de Estrellas para Uñas",
         price: 7000,
         category: "Decoración de Uñas / Nail Art",
-        image: "./images/ClariShop_143.jpg"
+        image: "ClariShop_143.jpg"
     },
     {
         id: 72,
         name: "Set x2 Blisters de Decoración y Apliques Surtidos Eloise",
         price: 80000,
         category: "Decoración de Uñas / Nail Art",
-        image: "./images/ClariShop_145.jpg"
+        image: "ClariShop_145.jpg"
     },
     {
         id: 73,
         name: "Termo Stanley Color Lila / Violeta con Tapa y Manija",
         price: 0,
         category: "Accesorios y Varios",
-        image: "./images/ClariShop_148.jpg"
+        image: "ClariShop_148.jpg"
     },
     {
         id: 74,
         name: "Cabina UV/LED Profesional Sun X5 Plus (Color Blanco)",
         price: 180000,
         category: "Equipamiento y Aparatología",
-        image: "./images/ClariShop_149.jpg"
+        image: "ClariShop_149.jpg"
     },
     {
         id: 75,
         name: "Cabina UV/LED Profesional Sun X5 Plus (Color Rosado)",
         price: 180000,
         category: "Equipamiento y Aparatología",
-        image: "./images/ClariShop_151.jpg"
+        image: "ClariShop_151.jpg"
     }
 ];
 
